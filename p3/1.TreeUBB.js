@@ -111,8 +111,8 @@ class Node {
   t1.preOrder();
   console.log('');
   
-  console.log("En este momento se ejecuta el método remove en primer hijo a la izquierda, por lo que desaparecen los nodos 2,4 y 5")
-  t1.remove(2);
+  console.log("En este momento se ejecuta el método remove en uno de los nodos, por lo que desaparecera junto con sus respetivos hijos")
+  t1.remove(7);
   console.log('');
   
   console.log('Método preorder para verificar que el remove fue exitoso');

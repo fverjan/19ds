@@ -87,12 +87,12 @@ class Node {
   }
   
   let raiz = new Node(1);
-  let child1 = new Node(2);
-  let child2 = new Node(3);
-  let child3 = new Node(4);
-  let child4 = new Node(5);
-  let child5 = new Node(6);//Creación de nodos que contendrá el arbol
-  let child6 = new Node(7);
+  let child1 = new Node(3);
+  let child2 = new Node(7);
+  let child3 = new Node(2);
+  let child4 = new Node(4);
+  let child5 = new Node(5);//Creación de nodos que contendrá el arbol
+  let child6 = new Node(6);
 
   let t1 = new TreeUBB(raiz);
   t1.insert(child1);
